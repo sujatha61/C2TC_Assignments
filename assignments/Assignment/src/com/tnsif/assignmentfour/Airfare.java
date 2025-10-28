@@ -1,5 +1,7 @@
+
 package com.tnsif.assignmentfour;
 
-public class Airfare {
-
+public interface Airfare {
+    Double calculateAmount();
+    void display();
 }
